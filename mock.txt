@@ -1,0 +1,96 @@
+firs Mobile
+###########################################################################################################
++---------------------------------------+
+|  [ Gloria Ha ]                    [=] <-- Ikon Hamburger Menu
++---------------------------------------+
+
+   👋 Hello, my name is Gloria Ha!       <-- Judul Utama (Rata Tengah)
+   
+   I am a Product Manager and Designer 
+   who loves to create useful...         <-- Deskripsi Singkat
+   
+         +-------------------+
+
+         |   Learn More >    |         <-- Tombol Utama (Mudah Diketuk Jari)
+         +-------------------+
+
++---------------------------------------+
+  FEATURED WORK                          <-- Judul Bagian
+  
+  +-----------------------------------+
+
+  |                                   |
+  |         [ GAMBAR PROJEK ]         |  <-- Projek 1: Glowtastic
+  |                                   |
+  |-----------------------------------|
+  |  Glowtastic (Skincare E-commerce) |
+  |  Routine Builder Case Study       |
+  |  [UX/UI]  [Branding]  [Solutions] |  <-- Informasi & Tag Langsung Terlihat
+  |                                   |
+  |        +-----------------+        |
+  |        | Read Case Study |        |  <-- Tombol Ketuk Ukuran Besar
+  |        +-----------------+        |
+  +-----------------------------------+
+  
+                   ↓                     <-- Pengguna Men-scroll ke Bawah
+  
+  +-----------------------------------+
+
+  |                                   |
+  |         [ GAMBAR PROJEK ]         |  <-- Projek 2: Bank of America
+  |                                   |
+  |-----------------------------------|
+  |  Bank of America (Mobile Banking) |  <-- Menumpuk Rapi di Bawah Projek 1
+  +-----------------------------------+
+
++---------------------------------------+
+  NAVIGATION          SOCIAL             
+  - Home              - Medium           <-- Footer Berbaris Vertikal
+  - About Me          - Linkedin         
+  - Resume            - Behance          
++---------------------------------------+
+
+
+view dekstop
+####################################################################################################
++-------------------------------------------------------------------------------+
+
+|  [ Gloria Ha ]                                      Home   About   Resume    | <-- Menu Navigasi Terbuka Lebar
++-------------------------------------------------------------------------------+
+
+   👋 Hello, my name is Gloria Ha!          +-------------------------------+
+
+                                            |                               |
+   I am a Product Manager and Designer      |       [ FOTO PROFIL /         | <-- Sisi Kanan Diisi Visual
+   who loves to create useful, intuitive,   |      ELEMEN DEKORATIF ]       |     (Teks & Gambar Berdampingan)
+   and engaging products.                   |                               |
+                                            +-------------------------------+
+         +-------------------+
+
+         |   Learn More >    |
+         +-------------------+
+
++-------------------------------------------------------------------------------+
+  FEATURED WORK
+  
+  +-----------------------------------+   +-----------------------------------+
+
+  |                                   |   |                                   |
+  |         [ GAMBAR PROJEK ]         |   |         [ GAMBAR PROJEK ]         | <-- Projek Berjejer Menyamping
+  |                                   |   |                                   |     (Menggunakan CSS Grid)
+  |-----------------------------------|   |-----------------------------------|
+  |  Glowtastic (Skincare E-commerce) |   |  Bank of America (Mobile Banking) |
+  |  Routine Builder Case Study       |   |  Surplus Manager Case Study       |
+  |  [UX/UI]  [Branding]  [Solutions] |   |  [UX/UI Design]  [Finance]        |
+  |                                   |   |                                   |
+  |        +-----------------+        |   |        +-----------------+        |
+  |        | Read Case Study |        |   |        | Read Case Study |        | <-- Tombol Bisa Memiliki Efek
+  |        +-----------------+        |   |        +-----------------+        |     Sorot Kursor (Hover Effect)
+  +-----------------------------------+   +-----------------------------------+
+  
+  (Kartu Projek 1: Kolom Kiri)            (Kartu Projek 2: Kolom Kanan)
+  
++-------------------------------------------------------------------------------+
+  NAVIGATION                              SOCIAL
+  Home  ·  About Me  ·  Resume             Medium  ·  Linkedin  ·  Behance     <-- Footer Berjejer Horizontal
++-------------------------------------------------------------------------------+

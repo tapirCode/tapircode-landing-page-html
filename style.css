@@ -1,0 +1,150 @@
+/*################## RESET CSS START ######################*/
+/* 1. Atur Box-sizing menjadi Border-box untuk semua elemen */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Hilangkan default margin pada sebagian besar elemen */
+* {
+  margin: 0;
+}
+
+/* 3. Atur tinggi penuh halaman untuk root/body */
+html, body {
+  height: 100%;
+}
+
+/* 4. Perbaiki tipografi dasar dan rendering teks */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f5f7fa;
+}
+
+/* 5. Cegah masalah overflow pada elemen media */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Pastikan form ikut mengatur font secara inherit */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Cegah teks panjang keluar dari container */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/* ################### RESET CSS END 33#################### */
+
+/* BAGIAN STYLING HEADER DAN TURUNANNYA */
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 4.5rem 0 4.5rem ;
+    border: 1px solid black;
+    background-color: #0b3c5d;
+    position: fixed;
+    width: 100%;
+}
+header h1{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+header nav button{
+    height: 56px;
+    width: 56px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+nav button .span-button::after{
+    font-size: 28px;
+    transition: 0.3s;
+    content: "\2630";
+}
+header nav ul {
+    display: flex;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease, visibility 0s 0.4s;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    list-style: none;
+    gap: 15px;
+    padding: 4rem;
+    background-color:#0b3c5d;
+    border: 1px solid black;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    transition: color 0.3s, transform 0.3s;
+    -webkit-tap-highlight-color: transparent;
+}
+.active ul{
+    max-height: 30rem;
+    opacity: 1;
+    visibility: visible;
+    transition: max-height 0.4s ease, opacity 0.4s ease, visibility 0s 0s;
+}
+.active  button .span-button::after{
+    content: "\2715";
+    font-size: 28px;
+    transform: rotate(90deg);
+}
+header nav ul li:active{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    transform: translateY(-1px);
+    cursor: pointer;
+
+}
+main .section-profil{
+  border: 1px solid blue;
+  padding: 2rem 5rem 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+main .section-profil .card-profil{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 30rem;
+  height: 26rem;
+  margin-top: 30px;
+}
+main .section-profil .card-profil img{
+  height: 20rem;
+}
+main .section-profil #about-me p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main .section-profil #about-me h3{
+  font-family: "Poppins",sans-serif;
+}
+main .section-profil .card-profil h2{
+  font-size: 1.75rem;
+  font-family: "Poppins",sans-serif;
+}
+main .section-profil .card-profil p{
+  font-family: "Inter",sans-serif;
+  font-weight: 700;
+}
